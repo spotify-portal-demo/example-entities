@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-frontend
+  description: This is an example frontend component for Backstage.
+  tags:
+    - frontend
+    - example
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/example-org/example-repo
+spec:
+  type: website
+  lifecycle: production
+  owner: team-a
+  system: example-system
+  consumesApis:
+    - example-api
