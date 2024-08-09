@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-entities
+  annotations:
+    github.com/project-slug: 'spotify-portal-demo/example-entities'
+spec:
+  type: library
+  lifecycle: production
+  owner: spotify-portal-demo/sharks
